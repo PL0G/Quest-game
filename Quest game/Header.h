@@ -4,7 +4,7 @@
 struct entities {
 	std::string name = "no name";
 	unsigned short strength = 3;
-	unsigned short agility = 4;
+	unsigned short agility = 3;
 	unsigned short intelligence = 4;
 	unsigned short points = 0;
 	unsigned short rep_cult = 0;
@@ -29,3 +29,5 @@ int ruins(int faction, int informer);
 int starship(int faction, int mechanism);
 //Поздемный город
 int undercity(int faction);
+//Повышение статов
+void stats_up();
