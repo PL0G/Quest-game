@@ -7,6 +7,7 @@
 entities Hero;
 int main() {
 	setlocale(LC_ALL, "Russian");
+	
 	Setup();
 	cont();
 	
@@ -41,6 +42,7 @@ int main() {
 					old_mine_result=old_mine(1);
 					ruins(1, old_mine_result);
 				}
+	
 	
 	
 	
