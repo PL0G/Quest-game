@@ -5,7 +5,7 @@ struct entities {
 	std::string name = "no name";
 	unsigned short strength = 3;
 	unsigned short agility = 3;
-	unsigned short intelligence = 4;
+	unsigned short intelligence = 3;
 	unsigned short points = 0;
 	unsigned short rep_cult = 0;
 	unsigned short rep_rose = 0;
