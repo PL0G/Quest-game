@@ -17,7 +17,7 @@ int main() {
 		
 		sell_medalion(1);
 		old_mine_result=old_mine(0);
-		ruins(0, old_mine_result);
+		starship(0,ruins(0, old_mine_result));
 	}
 
 	else
@@ -25,7 +25,8 @@ int main() {
 			
 			grandD(1);
 			old_mine_result=old_mine(1);
-			ruins(1, old_mine_result);
+			starship(1,ruins(1, old_mine_result));
+			undercity();
 		}
 
 		else
@@ -33,15 +34,17 @@ int main() {
 				
 				sell_medalion(0);
 				old_mine_result=old_mine(0);
-				ruins(0, old_mine_result);
+				starship(0,ruins(0, old_mine_result));
 			}
 
 			else
 				if (cem_result == 22) {
 					grandD(0);
 					old_mine_result=old_mine(1);
-					ruins(1, old_mine_result);
+					starship(1,ruins(1, old_mine_result));
+					undercity();
 				}
+	
 	
 	
 	

@@ -7,7 +7,6 @@ struct entities {
 	unsigned short agility = 3;
 	unsigned short intelligence = 3;
 	unsigned short points = 0;
-	unsigned short rep_cult = 0;
 	unsigned short rep_rose = 0;
 };
 void show_stats(entities& Hero);
@@ -26,8 +25,8 @@ int old_mine(int faction);
 //Руины
 int ruins(int faction, int informer);
 //Корабль звездочетов
-int starship(int faction, int mechanism);
+void starship(int faction, int mechanism);
 //Поздемный город
-int undercity(int faction);
+void undercity();
 //Повышение статов
 void stats_up();
